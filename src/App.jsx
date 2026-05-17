@@ -138,9 +138,10 @@ export const App = () => {
                 <option value="8:00 a.m.">8:00 a.m.</option>
               </select>{" "}
               <br />
+              <center>
               <button type="submit" onClick={forum}>
                 Comprar
-              </button>
+              </button> </center>
             </form>
             <button onClick={() => cerrarModal()} className="cerrar">
               Cerrar
