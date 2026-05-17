@@ -1,0 +1,116 @@
+:root {
+    color-scheme: dark;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav {
+    background-color: rgb(24, 24, 33);
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.497);
+    text-align: center;
+}
+
+img{
+    height: 200px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.pelicula {
+    background-color: rgb(24, 24, 33);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.497);
+    border-radius: 20px;
+    width: fit-content;
+    margin: 30px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.pelicula button {
+    margin: 10px;
+}
+.pelicula img {
+    height: 200px;
+    width:150px;
+}
+
+button {
+    border: none;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    scale: 1.2;
+    border-radius: 4px;
+    margin: 10px;
+}
+button:hover {
+    transform: scale(1.1);
+}
+button:active {
+    transform:scale(0.9);
+}
+
+.padre{
+    background-color: rgba(0, 0, 0, 0.47);
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 5;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: rgb(24, 24, 33);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.497);
+    border-radius: 20px;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.cerrar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+.fadeIn{
+    animation: fadeIn 0.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+.fadeOut{
+    animation: fadeOut 0.2s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
