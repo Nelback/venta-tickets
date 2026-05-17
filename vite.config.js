@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  base:"https://Nelback.github.io/cine-react",
+  base:"/cine-react/",
 })
