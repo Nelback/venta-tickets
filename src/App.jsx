@@ -138,7 +138,7 @@ export const App = () => {
                 <option value="8:00 a.m.">8:00 a.m.</option>
               </select>{" "}
               <br />
-              <center>
+                <center>
               <button type="submit" onClick={forum}>
                 Comprar
               </button> </center>
